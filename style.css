@@ -66,3 +66,35 @@ body{
     color: black;
     opacity: 0.5;
 }
+
+
+
+/* Media Query */
+
+@media screen  and (max-width:422px) {
+    .container {
+        top: 17%;
+        left: 15%;
+    }
+    body{
+        background-size: 130vw 100vh;
+    }
+    .btn{
+       font-weight: 1000;
+       border: 2px solid white;
+    }
+}
+
+@media screen  and (max-width:800px) {
+    .container {
+        top: 22%;
+        left: 35%;;
+    }
+    body{
+        background-size: 130vw 100vh;
+    }
+    .btn{
+       font-weight: 1000;
+       border: 2px solid white;
+    }
+}
