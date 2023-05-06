@@ -73,8 +73,8 @@ body{
 
 @media screen  and (max-width:422px) {
     .container {
-        top: 17%;
-        left: 15%;
+        top: 1%;
+        left: 14%;
     }
     body{
         background-size: 130vw 100vh;
@@ -82,6 +82,9 @@ body{
     .btn{
        font-weight: 1000;
        border: 2px solid white;
+    }
+    .container{
+        width: 58%;
     }
 }
 
